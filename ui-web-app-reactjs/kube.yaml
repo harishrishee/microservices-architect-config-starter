@@ -4,14 +4,14 @@ metadata:
   labels:
     app: "react-ui"
   name: "ui"
-spec:
-  ports:
-  - name: "http"
-    port: 8080
-    targetPort: 8080
-  selector:
-    app: "react-ui"
-  type: "NodePort"
+  spec:
+    ports:
+    - name: "http"
+      port: 8080
+      targetPort: 8080
+    selector:
+      app: "react-ui"
+    type: "NodePort"
 ---
 apiVersion: apps/v1
 kind: Deployment
