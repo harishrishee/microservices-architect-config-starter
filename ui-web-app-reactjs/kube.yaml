@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: "react-ui"
-          image: "deekshithsn/ui"
+          image: "harishrishee/react-ui:1.16.0"
           imagePullPolicy: "IfNotPresent"
           ports:
             - containerPort: 8080
