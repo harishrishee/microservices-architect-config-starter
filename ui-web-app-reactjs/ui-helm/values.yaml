@@ -1,8 +1,8 @@
 appName: "react-ui"
 
 service:
-  name: "ui"
-  portName: "http"
+  name: "react-ui"
+  portName: "https"
   port: 8080
   targetPort: 8080
   type: "NodePort"
